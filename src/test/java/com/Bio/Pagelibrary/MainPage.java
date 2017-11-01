@@ -18,11 +18,11 @@ public MainPage(WebDriver driver)
 public NavigationPage clickonLink() throws InterruptedException
 {
 	driver.findElement(firstLink).click();
-	Thread.sleep(2000);
+	Thread.sleep(5000);
 	driver.findElement(rightArrow1).click();
-	Thread.sleep(1000);
+	Thread.sleep(2000);
 	driver.findElement(rightArrow2).click();
-	Thread.sleep(1000);
+	Thread.sleep(2000);
 	driver.findElement(rightArrow2).click();
 
 
