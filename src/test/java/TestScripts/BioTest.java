@@ -27,7 +27,6 @@ public class BioTest {
 	  ConfirmationPage confPage =submitPage.submitRegistrationForm("Ashu", "Automation Consultant", "IBM", "xyz@test.com");
 	  
 	  Assert.assertEquals(confPage.isConfirmationMessagePresent(), expectedResult);
-	  //assertEquals(confPage.isConfirmationMessagePresent(), expectedResult);
   }
   
   
@@ -35,6 +34,7 @@ public class BioTest {
   public void setUp()
   {
 	  //setting up the browser
+	  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 	 driver = WebBrowser.open(browserType);
 	 driver.get(getUrl);
 	 driver.manage().window().maximize();
