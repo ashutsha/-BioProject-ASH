@@ -15,7 +15,7 @@ import TestScripts.TestBase.WebBrowser;
 public class BioTest {
 	WebDriver driver;
 	String getUrl= "https://www.thebioagency.com/news-and-views/white-papers/";
-	String browserType ="Firefox";
+	String browserType ="chrome";
 	
   
   @Test
