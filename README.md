@@ -1,6 +1,7 @@
 # -BioProject-ASH
 BioProject
-Please note due to jars, you might just need to update the maven project again.
+Download the Project and import.
+Incase any ! mark on project, please update the maven project again.
 Right click on the Project
 Goto maven option
 Select Update Project
